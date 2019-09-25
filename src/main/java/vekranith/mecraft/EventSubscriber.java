@@ -2,6 +2,7 @@ package vekranith.mecraft;
 
 import vekranith.mecraft.Mecraft;
 import vekranith.mecraft.block.BlockCopperOre;
+import vekranith.mecraft.block.BlockDeproniteOre;
 import vekranith.mecraft.init.ModBlocks;
 import vekranith.mecraft.item.ItemCopperCoin;
 
@@ -22,6 +23,7 @@ public class EventSubscriber {
 	public static void registerBlocks(Register<Block> event) {
 		final Block[] blocks = {
 				new BlockCopperOre(Material.IRON, SoundType.STONE, "blockCopperOre", "copper_ore"),
+				new BlockDeproniteOre(Material.IRON, SoundType.STONE, "blockDeproniteOre", "depronite_ore"),
 		};
 		
 		event.getRegistry().registerAll(blocks);
@@ -35,6 +37,7 @@ public class EventSubscriber {
 	
 		final Item[] itemBlocks = {
 				new ItemBlock(ModBlocks.COPPER_ORE).setRegistryName(ModBlocks.COPPER_ORE.getRegistryName()),
+				new ItemBlock(ModBlocks.DEPRONITE_ORE).setRegistryName(ModBlocks.DEPRONITE_ORE.getRegistryName()),
 		};
 		
 		event.getRegistry().registerAll(items);

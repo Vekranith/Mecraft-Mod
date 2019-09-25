@@ -20,6 +20,7 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.COPPER_COIN);
 		
 		registerModel(Item.getItemFromBlock(ModBlocks.COPPER_ORE));
+		registerModel(Item.getItemFromBlock(ModBlocks.DEPRONITE_ORE));
 	}
 
 	private static void registerModel(Item item) {
