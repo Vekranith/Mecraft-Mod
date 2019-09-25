@@ -14,17 +14,5 @@ public class ModItems {
 
 	public static final Item COPPER_COIN = null;
 	
-	@EventBusSubscriber(modid = Mecraft.MODID)
-	public static class RegistrationHandler {
-	
-		@SubscribeEvent
-		public static void registerItems(Register<Item> event) {
-		final Item[] items = {
-				new Item().setRegistryName(Mecraft.MODID, "COPPER_COIN").setTranslationKey(Mecraft.MODID + "." + "copper_coin").setCreativeTab(CreativeTabs.MISC)
-			};
-		
-			event.getRegistry().registerAll(items);
-		}
-	}
 	
 }
