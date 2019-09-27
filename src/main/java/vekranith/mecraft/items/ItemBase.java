@@ -14,7 +14,7 @@ public class ItemBase extends Item implements IHasModel
 	
 		setTranslationKey(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Main.mecrafttab);
 		
 		ModItems.ITEMS.add(this);
 		

@@ -29,9 +29,9 @@ public class ModItems
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Materials
-	public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial("material_copper", 2, 125, 5.0f, 1.5f, 8);
+	public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial("material_copper", 1, 125, 5.0f, 1.5f, 8);
 	public static final ToolMaterial MATERIAL_SILVER = EnumHelper.addToolMaterial("material_silver", 2, 750, 7.0f, 2.5f, 15);
-	public static final ToolMaterial MATERIAL_PLATINUM = EnumHelper.addToolMaterial("material_platinum", 3, 1000, 7.0f, 2.5f, 12);
+	public static final ToolMaterial MATERIAL_PLATINUM = EnumHelper.addToolMaterial("material_platinum", 3, 1000, 8.0f, 2.5f, 12);
 	
 	public static final ArmorMaterial ARMOR_MATERIAL_COPPER = EnumHelper.addArmorMaterial("armor_material_copper", Reference.MOD_ID + ":copper", 13, new int[] {2, 4, 5, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
 	public static final ArmorMaterial ARMOR_MATERIAL_SILVER = EnumHelper.addArmorMaterial("armor_material_silver", Reference.MOD_ID + ":silver", 20, new int[] {2, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
@@ -39,27 +39,29 @@ public class ModItems
 	
 	//Items
 	public static final Item COPPER_COIN = new ItemBase("copper_coin");
-	public static final Item COPPER_DUST = new ItemBase("copper_dust");
-	public static final Item COPPER_INGOT = new ItemBase("copper_ingot");
-	public static final Item COPPER_NUGGET = new ItemBase("copper_nugget");
-	
 	public static final Item SILVER_COIN = new ItemBase("silver_coin");
-	public static final Item SILVER_DUST = new ItemBase("silver_dust");
-	public static final Item SILVER_INGOT = new ItemBase("silver_ingot");
-	public static final Item SILVER_NUGGET = new ItemBase("silver_nugget");
-	
+	public static final Item GOLD_COIN = new ItemBase("gold_coin");
 	public static final Item PLATINUM_COIN = new ItemBase("platinum_coin");
+
+	public static final Item COPPER_DUST = new ItemBase("copper_dust");
+	public static final Item SILVER_DUST = new ItemBase("silver_dust");
 	public static final Item PLATINUM_DUST = new ItemBase("platinum_dust");
-	public static final Item PLATINUM_INGOT = new ItemBase("platinum_ingot");
-	public static final Item PLATINUM_NUGGET = new ItemBase("platinum_nugget");
-	
 	public static final Item DEPRONITE_DUST = new ItemBase("depronite_dust");
-	public static final Item DEPRONITE_INGOT = new ItemBase("depronite_ingot");
-	
 	public static final Item ETCHRONITE_DUST = new ItemBase("etchronite_dust");
+	public static final Item COPPER_INGOT = new ItemBase("copper_ingot");
+	public static final Item SILVER_INGOT = new ItemBase("silver_ingot");
+	public static final Item PLATINUM_INGOT = new ItemBase("platinum_ingot");
+	public static final Item DEPRONITE_INGOT = new ItemBase("depronite_ingot");
 	public static final Item ETCHRONITE_INGOT = new ItemBase("etchronite_ingot");
 	
-	public static final Item GOLD_COIN = new ItemBase("gold_coin");
+	public static final Item COPPER_NUGGET = new ItemBase("copper_nugget");
+	public static final Item SILVER_NUGGET = new ItemBase("silver_nugget");
+	public static final Item PLATINUM_NUGGET = new ItemBase("platinum_nugget");
+	
+	
+	
+	
+	
 	
 	//Tools
 	public static final ItemSword COPPER_SWORD = new ToolSword("copper_sword", MATERIAL_COPPER);

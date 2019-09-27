@@ -16,7 +16,7 @@ public class ArmorBase extends ItemArmor implements IHasModel
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 		setTranslationKey(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Main.mecrafttab);
 		
 		ModItems.ITEMS.add(this);
 		

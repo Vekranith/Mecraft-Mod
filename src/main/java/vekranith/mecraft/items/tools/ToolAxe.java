@@ -15,7 +15,7 @@ public class ToolAxe extends ItemAxe implements IHasModel
 		super(material, 3.0f, -3.2f);
 		setTranslationKey(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Main.mecrafttab);
 		
 		ModItems.ITEMS.add(this);
 		

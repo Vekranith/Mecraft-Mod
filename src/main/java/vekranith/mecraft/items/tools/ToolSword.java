@@ -14,7 +14,7 @@ public class ToolSword extends ItemSword implements IHasModel
 		super(material);
 		setTranslationKey(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Main.mecrafttab);
 		
 		ModItems.ITEMS.add(this);
 		

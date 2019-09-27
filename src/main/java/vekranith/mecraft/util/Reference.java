@@ -10,4 +10,6 @@ public class Reference
 	public static final String CLIENT_PROXY_CLASS = "vekranith.mecraft.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "vekranith.mecraft.proxy.CommonProxy";
 	
+	public static final int GUI_FORGE_BLOCK = 0;
+	
 }

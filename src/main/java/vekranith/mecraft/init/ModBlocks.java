@@ -25,16 +25,19 @@ public class ModBlocks
 	//Blocks
 	public static final Block BASILT_BLOCK = new BasiltBlock("basilt_block", Material.ROCK);
 	public static final Block COPPER_BLOCK = new CopperBlock("copper_block", Material.IRON);
+	public static final Block SILVER_BLOCK = new SilverBlock("silver_block", Material.IRON);
+	public static final Block PLATIUNUM_BLOCK = new PlatinumBlock("platinum_block", Material.IRON);
 	public static final Block DEPRONITE_BLOCK = new DeproniteBlock("depronite_block", Material.IRON);
 	public static final Block ETCHRONITE_BLOCK = new EtchroniteBlock("etchronite_block", Material.IRON);
-	public static final Block PLATIUNUM_BLOCK = new PlatinumBlock("platinum_block", Material.IRON);
-	public static final Block SILVER_BLOCK = new SilverBlock("silver_block", Material.IRON);
 	
 	//Ore
 	public static final Block COPPER_ORE = new CopperOre("copper_ore", Material.ROCK);
+	public static final Block SILVER_ORE = new SilverOre("silver_ore", Material.ROCK);
+	public static final Block PLATINUM_ORE = new PlatinumOre("platinum_ore", Material.ROCK);
 	public static final Block DEPRONITE_ORE = new DeproniteOre("depronite_ore", Material.ROCK);
 	public static final Block ETCHRONITE_ORE = new EtchroniteOre("etchronite_ore", Material.ROCK);
-	public static final Block PLATINUM_ORE = new PlatinumOre("platinum_ore", Material.ROCK);
-	public static final Block SILVER_ORE = new SilverOre("silver_ore", Material.ROCK);
+	
+	//Utility Blocks
+	public static final Block FORGE_BLOCK = new ForgeBlock("forge_block")
 	
 }

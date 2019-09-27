@@ -15,7 +15,7 @@ public class ToolPickaxe extends ItemPickaxe implements IHasModel
 		super(material);
 		setTranslationKey(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Main.mecrafttab);
 		
 		ModItems.ITEMS.add(this);
 		
