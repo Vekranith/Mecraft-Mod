@@ -34,6 +34,20 @@ item.platinum_pickaxe.name=Platinum Pickaxe
 item.platinum_axe.name=Platinum Axe
 item.platinum_hoe.name=Platinum Hoe
 
+//Armor
+item.copper_armor_head.name=Copper Helmet
+item.copper_armor_body.name=Copper Chest
+item.copper_armor_leggings.name=Copper Legs
+item.copper_armor_boots.name=Copper Boots
+item.silver_armor_head.name=Silver Helmet
+item.silver_armor_body.name=Silver Chest
+item.silver_armor_leggings.name=Silver Legs
+item.silver_armor_boots.name=Silver Boots
+item.platinum_armor_head.name=Platinum Helmet
+item.platinum_armor_body.name=Platinum Chest
+item.platinum_armor_leggings.name=Platinum Legs
+item.platinum_armor_boots.name=Platinum Boots
+
 //Blocks
 tile.basilt_block.name=Basilt Block
 tile.copper_block.name=Copper Block

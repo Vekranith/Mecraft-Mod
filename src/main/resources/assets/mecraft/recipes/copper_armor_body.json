@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C C",
+        "CCC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "mecraft:copper_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:copper_armor_body",
+        "count": 1
+    }
+}

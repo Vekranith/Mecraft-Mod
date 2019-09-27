@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SSS",
+        "S S",
+        "S S"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "mecraft:silver_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:silver_armor_leggings",
+        "count": 1
+    }
+}

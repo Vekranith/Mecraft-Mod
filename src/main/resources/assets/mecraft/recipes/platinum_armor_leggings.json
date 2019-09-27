@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PPP",
+        "P P",
+        "P P"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "mecraft:platinum_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:platinum_armor_leggings",
+        "count": 1
+    }
+}
