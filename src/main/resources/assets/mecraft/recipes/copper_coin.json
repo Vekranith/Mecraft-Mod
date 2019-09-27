@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " C ",
+        "CCC",
+        " C "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "mecraft:copper_nugget"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:copper_coin",
+        "count": 1
+    }
+}

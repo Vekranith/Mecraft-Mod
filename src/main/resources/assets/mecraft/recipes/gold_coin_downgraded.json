@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mecraft:platinum_coin"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "mecraft:gold_coin",
+        "count": 5
+    }
+}

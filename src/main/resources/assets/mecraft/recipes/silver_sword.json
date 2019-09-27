@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "S",
+        "S",
+        "T"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "mecraft:silver_ingot"
+        },
+        
+        "T":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:silver_sword",
+        "count": 1
+    }
+}

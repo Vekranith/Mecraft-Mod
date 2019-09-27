@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mecraft:silver_coin"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mecraft:copper_coin",
+        "count": 5
+    }
+}

@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mecraft:depronite_ingot"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mecraft:depronite_dust",
+        "count": 3
+    }
+}

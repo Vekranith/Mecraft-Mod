@@ -1,0 +1,42 @@
+//Items
+item.copper_coin.name=Copper Coin
+item.copper_dust.name=Copper Dust
+item.copper_ingot.name=Copper Ingot
+item.copper_nugget.name=Copper Nugget
+item.depronite_dust.name=Depronite Dust
+item.depronite_ingot.name=Depronite Ingot
+item.etchronite_dust.name=Etchronite Dust
+item.etchronite_ingot.name=Etchronite Ingot
+item.gold_coin.name=Gold Coin
+item.platinum_coin.name=Platinum Coin
+item.platinum_dust.name=Platinum Dust
+item.platinum_ingot.name=Platinum Ingot
+item.platinum_nugget.name=Platinum Nugget
+item.silver_coin.name=Silver Coin
+item.silver_dust.name=Silver Dust
+item.silver_ingot.name=Silver Ingot
+item.silver_nugget.name=Silver Nugget
+
+//Tools
+item.copper_sword.name=Copper Sword
+item.copper_shovel.name=Copper Shovel
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+item.silver_sword.name=Silver Sword
+item.platinum_sword.name=Platinum Sword
+
+//Blocks
+tile.basilt_block.name=Basilt Block
+tile.copper_block.name=Copper Block
+tile.depronite_block.name=Depronite Block
+tile.etchronite_block.name=Etchronite Block
+tile.platinum_block.name=Platinum Block
+tile.silver_block.name=Silver Block
+
+//Ores
+tile.copper_ore.name=Copper Ore
+tile.depronite_ore.name=Depronite Ore
+tile.etchronite_ore.name=Etchronite Ore
+tile.platinum_ore.name=Platinum Ore
+tile.silver_ore.name=Silver Ore

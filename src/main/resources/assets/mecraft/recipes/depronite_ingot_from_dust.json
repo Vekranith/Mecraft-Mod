@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "item": "mecraft:depronite_dust"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:depronite_ingot",
+        "count": 1
+    }
+}

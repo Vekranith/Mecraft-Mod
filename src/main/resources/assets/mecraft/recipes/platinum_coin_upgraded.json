@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " G ",
+        "GGG",
+        " G "
+    ],
+    
+    "key":
+    {
+        "G":
+        {
+            "item": "mecraft:gold_coin"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:platinum_coin",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "EEE"
+    ],
+    
+    "key":
+    {
+        "E":
+        {
+            "item": "mecraft:etchronite_dust"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:etchronite_ingot",
+        "count": 1
+    }
+}
