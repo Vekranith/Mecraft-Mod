@@ -24,7 +24,15 @@ item.copper_pickaxe.name=Copper Pickaxe
 item.copper_axe.name=Copper Axe
 item.copper_hoe.name=Copper Hoe
 item.silver_sword.name=Silver Sword
+item.silver_shovel.name=Silver Shovel
+item.silver_pickaxe.name=Silver Pickaxe
+item.silver_axe.name=Silver Axe
+item.silver_hoe.name=Silver Hoe
 item.platinum_sword.name=Platinum Sword
+item.platinum_shovel.name=Platinum Shovel
+item.platinum_pickaxe.name=Platinum Pickaxe
+item.platinum_axe.name=Platinum Axe
+item.platinum_hoe.name=Platinum Hoe
 
 //Blocks
 tile.basilt_block.name=Basilt Block

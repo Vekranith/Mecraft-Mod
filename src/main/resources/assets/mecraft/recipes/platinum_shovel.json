@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "P",
+        "S",
+        "S"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "mecraft:platinum_ingot"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:platinum_shovel",
+        "count": 1
+    }
+}
