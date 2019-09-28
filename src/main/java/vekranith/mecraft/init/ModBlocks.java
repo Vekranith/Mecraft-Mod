@@ -38,6 +38,6 @@ public class ModBlocks
 	public static final Block ETCHRONITE_ORE = new EtchroniteOre("etchronite_ore", Material.ROCK);
 	
 	//Utility Blocks
-	public static final Block FORGE_BLOCK = new ForgeBlock("forge_block")
+	//public static final Block FORGE_BLOCK = new ForgeBlock("forge_block")
 	
 }

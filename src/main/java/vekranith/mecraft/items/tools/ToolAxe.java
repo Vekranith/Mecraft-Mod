@@ -12,7 +12,7 @@ public class ToolAxe extends ItemAxe implements IHasModel
 
 	public ToolAxe(String name, ToolMaterial material) 
 	{
-		super(material, 3.0f, -3.2f);
+		super(material, 8.0f, -3.2f);
 		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Main.mecrafttab);
