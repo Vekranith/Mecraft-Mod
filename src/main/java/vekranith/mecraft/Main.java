@@ -15,7 +15,7 @@ import vekranith.mecraft.tabs.MecraftTab;
 import vekranith.mecraft.util.Reference;
 import vekranith.mecraft.world.ModWorldGen;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main 
 {
 	
@@ -26,6 +26,8 @@ public class Main
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
+	
+	public static final int GUI = 0;
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)

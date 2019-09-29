@@ -33,9 +33,9 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_SILVER = EnumHelper.addToolMaterial("material_silver", 2, 750, 7.0f, 2.0f, 15);
 	public static final ToolMaterial MATERIAL_PLATINUM = EnumHelper.addToolMaterial("material_platinum", 3, 1000, 8.0f, 2.5f, 12);
 	
-	public static final ArmorMaterial ARMOR_MATERIAL_COPPER = EnumHelper.addArmorMaterial("armor_material_copper", Reference.MOD_ID + ":copper", 13, new int[] {2, 4, 5, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
-	public static final ArmorMaterial ARMOR_MATERIAL_SILVER = EnumHelper.addArmorMaterial("armor_material_silver", Reference.MOD_ID + ":silver", 20, new int[] {2, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
-	public static final ArmorMaterial ARMOR_MATERIAL_PLATINUM = EnumHelper.addArmorMaterial("armor_material_platinum", Reference.MOD_ID + ":platinum", 27, new int[] {3, 5, 7, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_COPPER = EnumHelper.addArmorMaterial("armor_material_copper", Reference.MODID + ":copper", 13, new int[] {2, 4, 5, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_SILVER = EnumHelper.addArmorMaterial("armor_material_silver", Reference.MODID + ":silver", 20, new int[] {2, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_PLATINUM = EnumHelper.addArmorMaterial("armor_material_platinum", Reference.MODID + ":platinum", 27, new int[] {3, 5, 7, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
 	
 	//Items
 	public static final Item COPPER_COIN = new ItemBase("copper_coin");
