@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "E",
+        "B"
+    ],
+    
+    "key":
+    {
+        "E":
+        {
+            "item": "mecraft:etchronite_dust"
+        },
+        
+        "B":
+        {
+            "item": "minecraft:book"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mecraft:assessor",
+        "count": 1
+    }
+}

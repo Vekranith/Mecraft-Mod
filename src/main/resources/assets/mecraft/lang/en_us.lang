@@ -20,6 +20,10 @@ item.silver_dust.name=Silver Dust
 item.silver_ingot.name=Silver Ingot
 item.silver_nugget.name=Silver Nugget
 
+//Misc Items
+item.assessor.name=Player Assessor
+item.players_handbook.name=Players Handbook
+
 //Tools
 item.copper_sword.name=Copper Sword
 item.copper_shovel.name=Copper Shovel

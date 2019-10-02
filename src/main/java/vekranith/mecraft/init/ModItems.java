@@ -14,7 +14,9 @@ import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
+import vekranith.mecraft.items.ItemAssessor;
 import vekranith.mecraft.items.ItemBase;
+import vekranith.mecraft.items.PlayersHandbook;
 import vekranith.mecraft.items.armor.ArmorBase;
 import vekranith.mecraft.items.tools.ToolAxe;
 import vekranith.mecraft.items.tools.ToolHoe;
@@ -58,10 +60,9 @@ public class ModItems
 	public static final Item SILVER_NUGGET = new ItemBase("silver_nugget");
 	public static final Item PLATINUM_NUGGET = new ItemBase("platinum_nugget");
 	
-	
-	
-	
-	
+	//Misc Items
+	public static final Item ASSESSOR = new ItemAssessor("assessor");
+	public static final Item PLAYERS_HANDBOOK = new PlayersHandbook("players_handbook");
 	
 	//Tools
 	public static final ItemSword COPPER_SWORD = new ToolSword("copper_sword", MATERIAL_COPPER);
