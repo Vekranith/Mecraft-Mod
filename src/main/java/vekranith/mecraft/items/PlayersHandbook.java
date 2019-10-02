@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
@@ -17,6 +18,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import vekranith.mecraft.Main;
+import vekranith.mecraft.client.gui.GuiPlayersHandbook;
 import vekranith.mecraft.init.ModItems;
 import vekranith.mecraft.util.IHasModel;
 
@@ -45,6 +47,12 @@ public class PlayersHandbook extends Item implements IHasModel
 			
 				player.sendMessage(new TextComponentString("Open Gui Here."));
 		
+		} 
+		else
+		{
+			
+			Minecraft.getMinecraft().displayGuiScreen(new GuiPlayersHandbook());
+			
 		}
 		
 		return new ActionResult<ItemStack>(EnumActionResult.PASS, player.getHeldItem(handIn));
